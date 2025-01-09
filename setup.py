@@ -1,11 +1,18 @@
 from setuptools import setup, find_packages
+from os import path
+working_directory = path.abspath(path.dirname(__file__))
+
+# Get the long description from the README file
+with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 
 setup(
-    name='rfm_analysis',
+    name='rfm_scoring_model',
     version='0.1.0',
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A Python package for RFM analysis and scoring of CRM datasets.',
+    author='Heath Thapa',
+    author_email='htmagar.university@gmail.com',
+    description='A Python package for scoring Customer ID based ON RFM Analysis',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/singularity-htmagarh/rfm_modeling',
