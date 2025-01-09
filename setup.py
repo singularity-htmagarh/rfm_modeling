@@ -9,7 +9,7 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='rfm_scoring_model',
-    version='0.1.0',
+    version='0.2.1',
     author='Heath Thapa',
     author_email='htmagar.university@gmail.com',
     description='A Python package for scoring Customer ID based ON RFM Analysis',
